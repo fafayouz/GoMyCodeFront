@@ -1,0 +1,106 @@
+.Posts-Container {
+    width: 100%;
+    height: auto;
+    background-color: #e8e8e8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.Posts-Card {
+    width: 21rem;
+    height: 23rem;
+    background-color: white;
+    overflow: hidden;
+    margin: 1.3rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Posts-Card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.Card-Image {
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    border-radius: 50%;
+}
+.Card-Image img {
+    width: 150%;
+    height: 150%;
+}
+.Card-Name {
+    width: 100%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Card-Gender {
+    width: 100%;
+    height: 15%;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.Card-Birth {
+    width: 100%;
+    height: 15%;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.Card-Link {
+    width: 100%;
+    height: 20%;
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Link-Wiki {
+    width: 25%;
+    height: 65%;
+    margin-left: 1rem;
+    border-radius: 0.4rem;
+    border: 0.2px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Link-Wiki a {
+    text-decoration: none;
+    color: black;
+}
+.Link-SinglePage {
+    width: 25%;
+    height: 65%;
+    margin-right: 2rem;
+    border-radius: 0.4rem;
+    border: 0.2px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Link-SinglePage a {
+    text-decoration: none;
+    color: black;
+}
+.Bold {
+    font-weight: bold;
+}

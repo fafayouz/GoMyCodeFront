@@ -1,0 +1,48 @@
+.SinglePage-Container {
+    width: 100%;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.SinglePage-Card {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: space-around;
+}
+.SinglePage-Image {
+    width: 7rem;
+    height: 7rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.SinglePage-Image img {
+    width: 170%;
+    height: 170%;
+    
+}
+.Single-Page-Details {
+    width: 80%;
+    height: 80%;
+}
+.Supp {
+    position: absolute;
+    margin-bottom: 30rem;
+    margin-left: 75rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
